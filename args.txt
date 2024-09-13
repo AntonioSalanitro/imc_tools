@@ -1,0 +1,23 @@
+# List of markers (marker names separated by commas)
+aSMA,CD19,p53,GFAP,CD16,CD11b,PDL1,CD45,PDGFRa,Ki67,coll,G34R,Bcat,CD3,K27M
+
+# Channels to exclude (channel names separated by a pipe)
+80ArAr|127|131|138|134|empty|DNA|ICSK|208|BCOR|NR2E1|MPP|CD248|Segm|CD31|PD1|CD276|RORgT
+
+# Folder to save plots (folder name followed by a forward slash)
+Analysis2/
+
+# Value for scale_value (number between 1 and 5)
+2
+
+# Perform batch correction (Yes or No)
+Yes
+
+# Use automatic clusters from Louvain for FlowSOM and Steinbock graph? (TRUE or FALSE)
+TRUE
+
+# Number of manual clusters (if "Use automatic clusters" is No)
+10
+
+# List of ROIs to process (ROI numbers separated by commas)
+1,2
